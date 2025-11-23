@@ -9,18 +9,20 @@ This project implements a neural network without using high-level machine learni
 ## Requirements
 
 ```bash
-uv pip install numpy matplotlib
+uv pip install numpy matplotlib jupyter
 ```
 
 ## Usage
 
 ```bash
-python main.py
+jupyter lab
 ```
+
+This will open a local server in your default browser
 
 ## Dataset
 
-The MNIST database contains 60,000 training images and 10,000 testing images of handwritten digits (0-9).
+The [MNIST database](https://www.kaggle.com/competitions/digit-recognizer) contains 60,000 training images and 10,000 testing images of handwritten digits (0-9).
 
 ## License
 
